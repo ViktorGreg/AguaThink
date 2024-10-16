@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sample.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Pogi si Greg</h1>
+        <a class="wala" href="" id="button">Post</a>
+    </div>
+    
+    <div class="popUp">
+        <div class="popUp-content">
+            <span class="close">&times;</span>
+            <p>Viktor Greg Lim</p>
+            <textarea name="" id="" placeholder="Write a post here."></textarea>
+            <button>Upload</button>
+        </div>
+    </div>
+    
+</body>
+<script>
+    document.getElementById("button").addEventListener("click", function(){
+        document.querySelector(".popUp").style.display = "flex";
+    })
+</script>
+</html>

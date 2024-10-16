@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        AguaThink
+    </title>
+</head>
+<style>
+    body{
+        background-color: #c3f8f0;
+    }
+    .container{
+        margin-top: 30px;
+        margin-left: 425px;
+        background-color: #16C79A;
+        width: 505px;
+        height: 570px;
+        text-align: center;
+        padding-top: 1px;
+        border-radius: 30px;
+        box-shadow: 5px 5px 10px black;
+    }
+    .reg_name{
+        font-size: 30px;
+        color: white;
+        text-shadow: 10px 7px 10px  black;
+
+    }
+    .form{
+        font-size: 19px;
+        font-weight: bold;
+        text-align: left;
+        padding-top: 10px;
+        padding-left: 11px;
+    }
+    .input{
+        height: 27px;
+        width: 470px;
+        border: none;
+        border-radius: 10px;
+        padding-left: 5px;
+    }
+    .sbmt{
+        height: 40px;
+        width: 475px;
+        border-radius: 30px;
+        border: none;
+        cursor: pointer;
+    }
+    .sbmt:hover{
+        opacity: 80%;
+        transition: 0.3s;
+    }
+</style>
+<body>
+    <div class="container">
+        <p class="reg_name">
+            Register
+        </p>    
+        <form class="form" action="homePage.html" method="post">
+            <label for="">Username:</label><p></p>
+            <input class="input" type="username" placeholder="Username" id="uname" required><p></p>
+
+            <label for="">Email:</label><p></p>
+            <input class="input" type="email" placeholder="Email" id="eml" required><p></p>
+
+            <label for="">Password:</label><p></p>
+            <input class="input" type="password" placeholder="Password" id="psw" required><p></p>
+
+            <label for="">Confirm Password:</label><p></p>
+            <input class="input" type="password" placeholder="Confirm Password" id="con_psw" required><p></p>
+
+            <input class="sbmt" onclick="confirmPassword()" type="submit" placeholder="Submit" id="sub">
+        </form>
+        <p>
+            Have an Account? <a href="logPage.html">Click Here!</a>
+        </p>
+    </div>
+    <p class="cred">
+        &copy;!Hydrophobic
+    </p>
+<script>
+    let pass = document.getElementById("psw")
+    , con_psw = document.getElementById("con_psw");
+
+    function confirmPassword() {
+        if(pass.value != con_psw.value){
+            con_psw.setCustomValidity("Password don't match");
+        } else {
+            con_psw.setCustomValidity('');
+        }
+    }
+</script>
+</body>
+</html>
