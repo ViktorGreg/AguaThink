@@ -22,7 +22,7 @@
             <a href="donationHub.html"> <button>Donation Hub</button></a>
             <a href="hotline.html"> <button>hotline</button></a>
             <a href=""> <button>About Us</button></a>
-            <a href=""> <button>Feedback</button></a>
+            <a href="feedback.html"> <button>Feedback</button></a>
             <a href="logPage.html" onclick="logalert()"><button>Log out</button></a>
         </nav>
         <div class="contains">
@@ -52,18 +52,28 @@
 
     <div class="topup" id="popUp" onclick="close()">
         <div class="topup-content">
+            <span onclick="closed()" id="closed">&times;</span>
             <p>Viktor Greg Lim</p>
-                <textarea name="" id="" placeholder="Write a post here."></textarea>
-                <a href=""><button class="btn" onclick="upload">Upload</button></a>
+                <textarea name="" id="textarea-1" placeholder="Write a post here."></textarea>
+                <a href=""><button class="btn" onclick="upload()" id="upload">Upload</button></a>
         </div>
     </div>
 </body>
 <script>
+    function closed(){
+        document.getElementById("popUp").style.display="none"
+    }
+
     function openPop(){
-    document.getElementById("popUp").style.display="flex"
+        document.getElementById("popUp").style.display="flex"
     }
     function logalert(){
         alert("You are about to exit home page.");
+    }
+    function upload(){
+        if (textarea-1 == null) {
+            alert("You don't have a content to post.");
+        }
     }
 </script>
 </html>

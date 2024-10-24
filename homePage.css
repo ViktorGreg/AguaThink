@@ -9,15 +9,14 @@ body {
 .navigation {
     display: flex;
     justify-content: space-evenly;
-}
 
+}
 .navigation a{
     padding-top: 15px;
     cursor: pointer;
     justify-content: center;
     align-items: center;
     text-align: center;
-    border: none;
     text-decoration: none;
     color: white;
     width: 200px;
@@ -30,6 +29,10 @@ body {
     border: none;
 }
 .navigation button{
+    margin-right: 5px;
+    margin-left: 5px;
+    z-index: 99;
+    background-color: red;
     font-weight: bold;
     width: 25%;
     height: 30px;
@@ -154,4 +157,8 @@ textarea::placeholder {
     padding: 20px;
     border-radius: 5px;
     position: relative;
+}
+#closed{
+    cursor: pointer;
+    float: right;
 }

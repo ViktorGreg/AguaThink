@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+.header-top {
+    background-color: #55c595;
+    padding-top: 0.1px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation a{
+    padding-top: 15px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: white;
+    width: 33.33%;
+    height: 40px;
+}
+.navigation a:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.3s;
+    border: none;
+}
