@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+
+.Bgsquare{
+    background-color: #cfead8;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 55px 75px 75px 75px;
+    border-radius: 15px;
+}
+
+.au{
+    padding: 20px 30px 20px 30px;
+    font-size: 25px;
+}

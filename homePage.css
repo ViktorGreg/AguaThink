@@ -1,6 +1,18 @@
 body {
     margin: 0;
 }
+
+.header-top a{
+    text-align: center; 
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    color: white; 
+    cursor: pointer; 
+    display: inline; 
+    padding-left: 15px;
+}
+
 .header-top{
     padding-top: 0.1px;
     background-color: #55c595;

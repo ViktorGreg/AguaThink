@@ -2,7 +2,8 @@
 .header-top {
     background-color: #55c595;
     padding-top: 0.1px;
-}
+}   
+
 .navigation {
     display: flex;
     justify-content: space-evenly;

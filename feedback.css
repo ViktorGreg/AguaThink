@@ -1,10 +1,42 @@
 body{
     margin: 0;
+
+}
+.Bgsquare{
+    background-color: #cfead8;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 55px 75px 75px 75px;
+    border-radius: 15px;
 }
 .header-top {
     background-color: #55c595;
     padding-top: 0.1px;
 }
+
+
+button {
+    background-color: #1a8f7a;
+    border: 1px solid #1a8f7a; 
+    border-radius: 6px; 
+    color: white; 
+    padding: 5px;
+    text-align: center; 
+    cursor: pointer; 
+    border: none;
+    font-size: 0.8em;
+    transition: all 0.1s ease;
+}
+
+
+button:hover {
+    background-color: white; 
+    color: #1a8f7a;
+    border: 1px solid #1a8f7a;
+    transition: 0.3s;
+}
+
+
 .navigation {
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +51,7 @@ body{
     border: none;
     text-decoration: none;
     color: white;
-    width: 33.33%;
+    width: 200px;
     height: 40px;
 }
 .navigation a:hover{
@@ -28,3 +60,27 @@ body{
     transition: 0.3s;
     border: none;
 }
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: #48c9b0;
+    width: 500px;
+    height: 310px;
+    transform: scale(1.3);
+}
+
+.container form{
+    padding: 20px;
+    text-align: center;
+}
+
