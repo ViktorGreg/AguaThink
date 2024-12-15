@@ -274,6 +274,13 @@ if ($post_stmt) {
             transition: 0.1s;
             box-shadow: 3px 3px 3px black;
         }
+        .upload-content{
+            background-color: white;
+            width: 100%;
+            padding: 2px;
+            border-radius: 5px;
+            margin-bottom: 8px;
+}
     </style>
 </head>
 <body>
@@ -296,7 +303,7 @@ if ($post_stmt) {
             <input type="text" name="username" id="username" value="<?php echo htmlspecialchars($user["username"]); ?>">
             <button type="submit" name="update_username">Update</button>
         </form>
-        <p><?php echo htmlspecialchars($user["email"]); ?></p>
+        <!-- <p><?php echo htmlspecialchars($user["email"]); ?></p> -->
         <p>Hi, I'm <?php echo htmlspecialchars($user["username"]); ?></p>
     </div>
         
@@ -320,7 +327,7 @@ if ($post_stmt) {
             <div class="upload">
                 <p style="font-size: 15px;"><?php echo htmlspecialchars($user["username"]); ?></p>
                 <p style="font-size: 10px;"><?php echo date("F j, Y, g:i a", strtotime($post["created_at"])); ?></p>
-                <p><?php echo nl2br(htmlspecialchars($post["content"])); ?></p>
+                <div class="upload-content"><p><?php echo nl2br(htmlspecialchars($post["content"])); ?></p></div>
                 
                 <!-- Edit button styled as a button, linking to edit_post.php -->
                 <form method="GET" action="edit_post.php" style="display:inline;">

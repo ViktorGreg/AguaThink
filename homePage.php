@@ -81,7 +81,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding-top: 35px;
-    height: 100vh;
+    height: 1500px;
     background-color: #3b9b9d;
     width: 25%;
 }
@@ -115,7 +115,8 @@ body {
     background-color: rgb(231, 230, 230);
     margin-top: 55px;
     margin-left: 100px;
-    padding-left: 25px;
+    padding-left: 23px;
+    padding-bottom: 25px;
     padding-top: 5px;
     padding-right: 20px;
     height: 1fr;
@@ -193,7 +194,12 @@ textarea::placeholder {
     cursor: pointer;
     float: right;
 }
-
+.upload-content{
+    background-color: white;
+    width: 100%;
+    padding: 2px;
+    border-radius: 5px;
+}
 </style>
 <body>
     <header class="header-top">
@@ -221,10 +227,7 @@ textarea::placeholder {
                 <div class="upload">
                     <p style="font-size: 15px;"><?php echo htmlspecialchars($post["username"]); ?></p>
                     <p style="font-size: 10px;"><?php echo htmlspecialchars($post["created_at"]); ?></p>
-                    <p><?php echo htmlspecialchars($post["content"]); ?></p>
-                    <a href=""><button class="btn">like</button></a>
-                    <a href=""><button class="btn">comment</button></a>
-                    <a href=""><button class="btn">share</button></a>
+                    <div class="upload-content"><p><?php echo htmlspecialchars($post["content"]); ?></p></div>
                 </div>
                 <hr>
             <?php endwhile; ?>
