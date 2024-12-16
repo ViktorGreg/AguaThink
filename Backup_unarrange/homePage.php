@@ -208,7 +208,7 @@ textarea::placeholder {
             <a href="homePage.php">Home</a>
             <a onclick="openPop()">Add Post</a>
             <a href="weather.php">Weather</a>
-            <a href="evacuationSite.php">Evacuation Site</a>
+            <a href="">Evacuation Site</a>
         </nav>
     </header>
 
@@ -217,8 +217,8 @@ textarea::placeholder {
             <a href="profile.php"><button>Profile</button></a>
             <a href="donationHub.php"><button>Donation Hub</button></a>
             <a href="hotline.php"><button>Hotline</button></a>
-            <a href="aboutus.php"><button>About Us</button></a>
-            <a href="feedback.php"><button>Feedback</button></a>
+            <a href="aboutus.html"><button>About Us</button></a>
+            <a href="feedback.html"><button>Feedback</button></a>
             <a href="login.php" onclick="logalert()"><button>Log out</button></a>
         </nav>
 

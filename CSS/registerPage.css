@@ -1,0 +1,76 @@
+body{
+    background-color: #c3f8f0;
+}
+.container{
+    margin-top: 30px;
+    margin-left: 425px;
+    background-color: #16C79A;
+    width: 505px;
+    height: 570px;
+    text-align: center;
+    padding-top: 1px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 10px black;
+}
+.reg_name{
+    font-size: 30px;
+    color: white;
+    text-shadow: 10px 7px 10px  black;
+
+}
+.form{
+    font-size: 19px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 11px;
+}
+.input{
+    height: 27px;
+    width: 470px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.sbmt{
+    height: 40px;
+    width: 475px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+}
+.sbmt:hover{
+    opacity: 80%;
+    transition: 0.3s;
+}
+.form-group{
+    margin-bottom: 50px;
+    margin-bottom: 50px;
+}
+.error-box {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    padding: 15px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.error-box button {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #721c24;
+}

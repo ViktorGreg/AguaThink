@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+}
+.header-top a{
+    text-align: center; 
+    text-decoration: none;
+    font-size: 3em;
+    font-weight: bold;
+    color: white; 
+    cursor: pointer; 
+    display: inline; 
+    padding-left: 15px;
+}
+
+.header-top{
+    padding-top: 0.1px;
+    background-color: #55c595;
+    width: 100vw;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.navigation a:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.3s;
+    border: none;
+}
+.navigation a{
+    padding: 8px;
+    z-index: 99;
+    background-color: red;
+    font-weight: bold;
+    width: 25%;
+    height: 30px;
+    background: transparent;
+    border: none;
+    font-size: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.donation1, .donation2, .donation3, .donation4{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background-color: #f7f7f7;
+    width: 1200px;
+}
+button{
+    background-color: #bfbfbf;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    margin: 14px;
+    width: 15%;
+    height: 50px;
+}
+button:hover{
+    opacity: 80%;
+    transition: 0.3s;
+}
+h2{
+    font-weight: bold;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navigation a{
+    padding-top: 15px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: none;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+.navigation a:hover{
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.3s;
+    border: none;
+}

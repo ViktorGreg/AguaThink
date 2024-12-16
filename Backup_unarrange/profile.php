@@ -218,15 +218,15 @@ if ($post_stmt) {
         display: none;
         justify-content: center;
         align-items: center;
-        }
-        .topup-content {
-                height: 430px;
-                width: 500px;
-                background: white;
-                padding: 20px;
-                border-radius: 5px;
-                position: relative;
-        }
+}
+.topup-content {
+        height: 430px;
+        width: 500px;
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        position: relative;
+}
         .container{
             display: flex;
             flex-direction: column;
@@ -295,7 +295,7 @@ if ($post_stmt) {
     </header>
     <div class="container">
         <div class="picture">
-        <img class="profile-picture" src="./img/empty.webp" alt="Profile Picture">
+        <img class="profile-picture" src="empty.webp" alt="Profile Picture">
         <h1><?php echo htmlspecialchars($user["username"]); ?></h1>
     <div class="user-edit">
             <form method="POST" action="profile.php">
