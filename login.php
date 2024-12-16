@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/login.css">
+    <link rel="stylesheet" href="./try.css">
     <title>Log In</title>
 </head>
 <body>
@@ -43,7 +43,7 @@
         <hr style="padding-right: 100px;"> 
         <p style="font-size: 20px;">Your safety is our priority...</p>
         <div>
-            <img class="img1" src="kudos-productions-star-guardian-key-visual-1.jpg" alt="">
+            <img class="img1" src="./img/kudos-productions-star-guardian-key-visual-1.jpg" alt="">
         </div>
         <p class="cred">&copy;!Hydrophobic</p>
     </div>
